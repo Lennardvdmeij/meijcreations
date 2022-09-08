@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>MeijCreations</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="script.js" defer></script>
+    <script src="modal.js" defer></script>
+</head>
+
+<body>
+    <div class="navbar">
+        <img id="logo" src="logo_white.png" alt="Logo" />
+        <div class="subpaginas">
+            <a href="#home">HOME</a>
+            <a href="aboutme.html">ABOUT ME</a>
+            <a href="projects.html">PROJECTS</a>
+            <button id="Buttoncontact">CONTACT</button>
+        </div>
+    </div>
+
+
+
+    <div id="Modalcontact" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <form id="form" method="post" name="form">
+                <h2>CONTACT ME</h2>
+                <input id="name" name="name" placeholder="Name" type="text">
+                <input id="email" name="email" placeholder="Email" type="text">
+                <textarea id="msg" name="message" placeholder="Message"></textarea>
+                <a href="javascript:%20check_empty()" id="submit">Send</a>
+            </form>
+        </div>
+    </div>
+
+
+
+
+    <div class="super-container">
+        <div class="container">
+            <div class="carousel-container">
+                <div class="Carousel">
+                    <a href="projectX.html"><img src="project1_a.jpg" alt="project1"></a>
+                </div>
+                <div class="Carousel">
+                    <a href="projectX.html?2"><img src="project2_a.jpg" alt="project2"></a>
+                </div>
+                <div class="Carousel">
+                    <a href="projectX.html?3"><img src="project3_a.jpg" alt="project3"></a>
+                </div>
+
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            </div>
+            <br>
+            <div style="text-align:center">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+            </div>
+        </div>
+    </div>

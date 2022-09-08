@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ProjectX</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="projectX.js" defer></script>
+    <script src="modal.js" defer></script>
+</head>
+
+<body class="whitebg">
+    <div class="navbar">
+        <img id="logo" src="logo_white.png" alt="Logo" />
+        <div class="subpaginas">
+            <a href="index.html">HOME</a>
+            <a href="aboutme.html">ABOUT ME</a>
+            <a href="projects.html">PROJECTS</a>
+            <button id="Buttoncontact">CONTACT</button>
+        </div>
+    </div>
+
+
+    <div id="Modalcontact" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <form id="form" method="post" name="form">
+                <h2>CONTACT ME</h2>
+                <input id="name" name="name" placeholder="Name" type="text">
+                <input id="email" name="email" placeholder="Email" type="text">
+                <textarea id="msg" name="message" placeholder="Message"></textarea>
+                <a href="javascript:%20check_empty()" id="submit">Send</a>
+            </form>
+        </div>
+    </div>
+
+
+    <div class="projectX">
+        <div class="projecttxt">
+            <div class="txtonly">
+                <h1 id="projectnaam">Electric Coffee Truck</h1>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium optio at, possimus nisi esse
+                    soluta
+                    tempore corporis, necessitatibus neque illum reprehenderit, ad voluptates! Cumque amet dolor, velit
+                    autem placeat provident.
+                    <br><br>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium optio at, possimus nisi esse
+                    soluta tempore corporis, necessitatibus neque illum reprehenderit, ad voluptates! Cumque amet dolor,
+                    velit
+                    autem placeat provident.
+                </p>
+            </div>
+            <div>
+                <img id="projectcontainera" src="project1_a.jpg">
+            </div>
+        </div>
+        <div>
+            <img id="projectcontainerb" src="project1_b.jpg">
+        </div>
+        <div>
+            <img id="projectcontainerc" src="project1_c.jpg">
+        </div>
+    </div>
+</body>
+
+</html>

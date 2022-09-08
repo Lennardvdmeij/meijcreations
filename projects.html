@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>projects</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="projectX.js" defer></script>
+    <script src="modal.js" defer></script>
+</head>
+
+<body class="whitebg">
+    <div class="navbar">
+        <img id="logo" src="logo_white.png" alt="Logo" />
+        <div class="subpaginas">
+            <a href="index.html">HOME</a>
+            <a href="aboutme.html">ABOUT ME</a>
+            <a href="projects.html">PROJECTS</a>
+            <button id="Buttoncontact">CONTACT</button>
+        </div>
+    </div>
+
+
+    <div id="Modalcontact" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <form id="form" method="post" name="form">
+                <h2>CONTACT ME</h2>
+                <input id="name" name="name" placeholder="Name" type="text">
+                <input id="email" name="email" placeholder="Email" type="text">
+                <textarea id="msg" name="message" placeholder="Message"></textarea>
+                <a href="javascript:%20check_empty()" id="submit">Send</a>
+            </form>
+        </div>
+    </div>
+
+
+    <div class="allprojects">
+        <a href="projectX.html"><img src="project1_a.jpg" alt="project1"></a>
+        <a href="projectX.html?2"><img src="project2_a.jpg" alt="project2"></a>
+        <a href="projectX.html?3"><img src="project3_a.jpg" alt="project3"></a>
+        <a href="projectX.html?4"><img src="project4_a.jpg" alt="project4"></a>
+        <a href="projectX.html?5"><img src="project5_a.jpg" alt="project5"></a>
+        <a href="projectX.html?6"><img src="project6_a.jpg" alt="project6"></a>
+    </div>
+</body>
+
+</html>

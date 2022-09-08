@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About me</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="modal.js" defer></script>
+</head>
+
+<body>
+
+    <div class="navbar">
+        <img id="logo" src="logo_white.png" alt="Logo" />
+        <div class="subpaginas">
+            <a href="index.html">HOME</a>
+            <a href="aboutme.html">ABOUT ME</a>
+            <a href="projects.html">PROJECTS</a>
+            <button id="Buttoncontact">CONTACT</button>
+        </div>
+    </div>
+
+
+    <div id="Modalcontact" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <form id="form" method="post" name="form">
+                <h2>CONTACT ME</h2>
+                <input id="name" name="name" placeholder="Name" type="text">
+                <input id="email" name="email" placeholder="Email" type="text">
+                <textarea id="msg" name="message" placeholder="Message"></textarea>
+                <a href="javascript:%20check_empty()" id="submit">Send</a>
+            </form>
+        </div>
+    </div>
+
+
+    <div class="aboutme">
+        <img id="fotolen" src="aboutme3b.jpg" alt="Foto van lennard" />
+        <div class="abouttxt">
+            <h1>Hi, I'm Lennard</h1>
+            <p>
+                A design professional with a Master’s Degree in Industrial Design Engineering and 10+ years of
+                experience as a product and graphic designer for a multitude of global brands. My creativity,
+                entrepreneurial spirit, attention to detail and passion for design have been praised by many of the
+                clients I’ve worked for.
+                <br>
+                <br>
+                Meij Creations offers a variaty of design services, including ideation, concept creation, product
+                visualization and presentation, 3D modelling and product photography. Meij Creations’ graphic design
+                services include packaging design, POS material design, logo design, template design and DTP.
+                In this slide deck you will find a variety of my work divided into different disciplines. I’ll be
+                delighted to provide more insights into the different design services Meij Creations offers.
+            </p>
+        </div>
+    </div>
+
+</body>
+
+</html>
